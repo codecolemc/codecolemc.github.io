@@ -1,0 +1,71 @@
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+	font-family: 'Raleway', sans-serif; 
+}
+
+hr{
+	max-width: 300px;
+	border-width: 5px;
+	border-color: #009ea3;
+}
+
+.faded {
+	color: white;
+	font-family: 'Shadows Into Light', cursive; 
+   	font-weight: bolder; 
+   	text-shadow: 2px 2px gray; 
+}
+
+header.startup {
+	background-position: center;
+	background-image: url("aurora_large.jpg");
+	background-size: cover;
+	height: 100%;
+}
+
+header.startup hr {
+	margin-top: 100px;
+	margin-bottom: 130px;
+}
+
+header.startup h1 {
+	font-size: 80px;
+	color: white; 
+  	font-family: 'Shadows Into Light', cursive; 
+  	font-weight: bolder; 
+  	text-shadow: 2px 2px gray; 
+}
+
+header.startup p {
+  color: white; 
+  font-family: 'Raleway', sans-serif; 
+  font-weight: bolder; 
+  text-shadow: 2px 2px gray; 
+  font-size: 2rem;
+}
+
+.btn-info {
+  background-color: #009ea3;
+  border-color:green;
+  border-width: 3px;
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif; 
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+  border-radius: 300px;
+  padding: 5px 35px;
+}
+
+.btn-info:hover {
+  background-color: #67dce8;
+  border-color: #67dce8;
+  border-width: 3px;
+  cursor: pointer;
+  color: black;
+  text-shadow: 1px 1px white;
+}
